@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400');
+@import url('https://fonts.googleapis.com/css?family=Play:400');
+@import url('https://fonts.googleapis.com/css?family=Satisfy:400');
+body {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    font-family: 'Play', sans-serif;
+}
+.navbar {
+    margin-bottom: 75px;
+}
+.navbar-inverse {
+    background-color: #000000 !important; 
+}
+
+.nav-profile {
+    border-radius: 4px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+.svg-hover-effect {
+    fill: #777777;
+}
+.svg-hover-effect:hover {
+    fill: #FFFFFF;
+}
+
+.nav-pass {
+    margin-top: 75px;
+}
+
+/* .media-heading {
+    background-color: #1A1A1A;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 0 0 2px 0;
+} */
+.media img {
+    border-radius: 4px;
+    border: 1px solid #1A1A1A;
+}
+.media-body p {
+    background-color: #1A1A1A;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 0 0 2px 0;
+    text-align: justify;
+}
+
+.btn {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.btn-search {
+    background-color: #FFFFFF;
+    height: 26px;
+    width: 30px;
+    padding: 5px;
+}
+
+input[type="text"] {
+    height: 26px;
+    width: 250px;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+    color: #000000;
+}
+
+.search-bar {
+    margin: 15px 0 15px -20px;
+}
+
+
+textarea {
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+    color: #000000;
+}
+
+.status {
+    background-color: #222222;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
